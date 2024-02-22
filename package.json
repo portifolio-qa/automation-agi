@@ -1,0 +1,12 @@
+{
+  "name": "cypress-agi",
+  "version": "1.0.0",
+  "description": "Automation-Agi",
+  "main": "index.js",
+  "repository": "https://github.com/portifolio-qa/automation-agi.git",
+  "author": "Rose Dias",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "12.2.0"
+  }
+}
