@@ -8,8 +8,8 @@ Este projeto, foi desenvolvido para o cliente Agi Bank.
 - Considerando a pesquisa de artigos do blog (lupa no canto superior esquerdo):
 - Mínimo dois cenários mais relevantes para a automação;
 
-  - **TC001** - Tc001 - Validar que a aplicação retorna para a página de pesquisa.
-  - **TC002** -Tc002 - Validar campo e-mail obrigatório p/ inscrição na Newsletter da página pesquisa.
+  - **TC001** - Validar que a aplicação retorna para a página de pesquisa.
+  - **TC002** - Validar campo e-mail obrigatório p/ inscrição na Newsletter da página pesquisa.
 
 - Liguagem de livre escolha. Foi escolhido o framework Cypress, por ser multiplataforma e multibrowser e também, pela compatibilidade da linguagem de front end, utilizada no cliente Agi ReactJs.
 - Criar repositório GitHub (público) com o código disponível para avaliação;
@@ -23,7 +23,7 @@ Este projeto, foi desenvolvido para o cliente Agi Bank.
 O projeto de teste apresenta as seguintes tecnologias:
 
 - Desenvolvido multiplataforma;
-- Cypress: framework de testes;
+- Cypress.io v12: framework de testes web;
 - Desing Patterns: Page Objects;
 - Testes contínuos: Github Actions
 
@@ -34,6 +34,31 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 # Estrutura do Projeto:
 
+<img src="image/README/icon_folder.png"/> **Automation-Front-end-Agii:** Pasta principal do projeto
+
+<img src="image/README/icon_folder.png"/> **cypress:** Pasta do framework Cypress
+
+<img src="image/README/icon_folder.png"/> ***e2e***: Arquivos de teste
+
+
+<img src="image/README/icon_folder.png"/> **pages:** Padrão page objects
+
+<img src="image/README/icon_folder.png"/> **screenshots:** Evidências (prints) dos testes que falharam
+
+<img src="image/README/icon_folder.png"/> **suport:** Pasta default do cypress para comandos e configurações
+
+<img src="image/README/icon_folder.png"/> **videos:** Evidências dos testes em videos dos testes
+
+<img src="image/README/javascript_icon_.png"/> **Arquivo cypress.json:** Configurações para executar o projetos browser
+
+<img src="image/README/javascript_icon_.png"/> **Arquivo [commandjs]**(https://docs.cypress.io/api/table-of-contents "Doc Comandos Cypress"): Comandos do cypress
+
+<img src="image/README/javascript_icon_.png"/> **Arquivo e2e:** Primeiro arquivo carregado do cypress, tudo que precisa antes rodar os testes
+
+<img src="image/README/javascript_icon_.png"/> **pakage.json:** Arquivo Informações do projeto
+
+
+<img src="image/README/md_file_icon_.png"/> **README.md:** Documentação do Projeto
 
 # Execuçao do projeto:
 
