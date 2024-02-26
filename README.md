@@ -8,8 +8,8 @@ Este projeto, foi desenvolvido para o cliente Agi Bank.
 - Considerando a pesquisa de artigos do blog (lupa no canto superior esquerdo):
 - Mínimo dois cenários mais relevantes para a automação;
 
-  - **TC001** - Validar que ao pesquisar pelo artigo vaga. O sistema deve retornar com a mensagem: "Search Results for: vagas"
-  - **TC002** - Validar que ao pesquisar um artigo inexistente no blog, o sistem deve retornar a seguinte mensagem "Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras."
+  - **TC001** - Tc001 - Validar que a aplicação retorna para a página de pesquisa.
+  - **TC002** -Tc002 - Validar campo e-mail obrigatório p/ inscrição na Newsletter da página pesquisa.
 
 - Liguagem de livre escolha. Foi escolhido o framework Cypress, por ser multiplataforma e multibrowser e também, pela compatibilidade da linguagem de front end, utilizada no cliente Agi ReactJs.
 - Criar repositório GitHub (público) com o código disponível para avaliação;
