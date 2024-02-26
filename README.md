@@ -66,9 +66,11 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 ### Comandos:
 
-* yarn cypress open (roda na interface gráfica)
-* yarn cypress run (roda em modo heandless)
-* yarn cypress run --browser chrome (informe o browser que deseja rodar)
-* yarn allure serve (executa o servidor de relatório)
+yarn cypress open (roda na interface gráfica)
 
+yarn cypress run (roda em modo heandless)
+
+yarn cypress run --browser chrome (informe o browser que deseja rodar)
+
+yarn allure serve (executa o servidor de relatório)
 
