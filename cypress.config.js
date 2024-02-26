@@ -2,7 +2,6 @@ const { defineConfig } = require("cypress");
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
 module.exports = defineConfig({
-  projectId: '8s3xo1',
   e2e: {
     baseUrl: 'https://blogdoagi.com.br/',
     env: {
