@@ -29,7 +29,7 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 # Justificativa das tecnologias do projeto:
 
- As seguintes tecnologias foram escolhidas, devido a facilidade para utilizar o projeto com CI (integração contínua) e para ser executado multiplataforma (Linux/Windows/MacOs), outro ponto a ser considerado foi a arquitetura do framework, que facilita lidar com pontos chaves problematicos em outras ferramentas de automação, como a inscossistencia e indisponibilidade dos elementos.
+ As seguintes tecnologias foram escolhidas, devido a facilidade para utilizar o projeto com CI (integração contínua) e para ser executado multiplataforma (Linux/Windows/MacOs), outro ponto a ser considerado foi a arquitetura do framework, que facilita lidar com pontos chaves problemáticos em outras ferramentas de automação, como a incossistência e indisponibilidade dos elementos.
  O projeto se adapta para qualquer linguagem;
 
 # Estrutura do Projeto:
@@ -64,7 +64,7 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 * Gitclone: https://github.com/portifolio-qa/automation-agi.git
 
-### Comandos:
+### Comandos Local:
 
 yarn cypress open (roda na interface gráfica)
 
@@ -73,4 +73,15 @@ yarn cypress run (roda em modo heandless)
 yarn cypress run --browser chrome (informe o browser que deseja rodar)
 
 yarn allure serve (executa o servidor de relatório)
+
+### Comandos Nuvem:
+
+Para rodar a pipeline de testes contínuos, basta executar o workflow criado no repositório.
+
+Passos:
+1 - https://github.com/portifolio-qa/automation-agi.git
+2 - Clicar em Actions
+3 - Workflow > Cypress Tests 
+4 - Clicar no botão Re-run all Jobs e a suíte irá rodar
+
 
