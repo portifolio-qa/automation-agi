@@ -5,7 +5,7 @@ Este projeto, foi desenvolvido para o cliente Agi Bank.
 ## Requisitos:
 
 - Aplicação: https://blogdoagi.com.br/
-- Considerando a pesquisa de artigos do blog (lupa no canto superior esquerdo):
+- Atenção: Considerando a pesquisa de artigos do blog (lupa no canto superior esquerdo):
 - Mínimo dois cenários mais relevantes para a automação;
 
   - **TC001** - Validar que a aplicação retorna para a página de pesquisa.
@@ -78,10 +78,12 @@ yarn allure serve (executa o servidor de relatório)
 
 Para rodar a pipeline de testes contínuos, basta executar o workflow criado no repositório.
 
-Passos:
-1 - https://github.com/portifolio-qa/automation-agi.git
-2 - Clicar em Actions
-3 - Workflow > Cypress Tests 
-4 - Clicar no botão Re-run all Jobs e a suíte irá rodar
+Passos:  
+1 - https://github.com/portifolio-qa/automation-agi.git  
+2 - Clicar em Actions  
+3 - Workflow > Cypress cloud  
+4 - Clicar no botão Re-run all Jobs e a suíte irá rodar  
 
+Link para visualizar o relatório na nuvem: 
 
+* https://cloud.cypress.io/invitation/81fa7304-2bba-49bb-b10c-e06190c097b3
