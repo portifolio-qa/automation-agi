@@ -34,6 +34,8 @@ O projeto de teste apresenta as seguintes tecnologias:
 
  Importante salientar que todos os requisitos do projeto foram atendidos, o mesmo está configurado para rodar com testes contínuos multiplataforma e multibrowser na nuvem, através do Github Actions e do cloud cypress.
 
+ <img src="image/README/workflow.png"/> 
+
 # Estrutura do Projeto:
 
 <img src="image/README/icon_folder.png"/> **Automation-Front-end-Agi:** Pasta principal do projeto
