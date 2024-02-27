@@ -29,8 +29,10 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 # Justificativa das tecnologias do projeto:
 
- As seguintes tecnologias foram escolhidas, devido a facilidade para utilizar o projeto com CI (integração contínua) e para ser executado multiplataforma (Linux/Windows/MacOs), outro ponto a ser considerado foi a arquitetura do framework, que facilita lidar com pontos chaves problemáticos em outras ferramentas de automação, como a incossistência e indisponibilidade dos elementos.
+ As seguintes tecnologias foram escolhidas, devido a facilidade para utilizar o projeto com CI (integração contínua) e para ser executado multiplataforma (Linux/Windows/MacOs) e multibrowser, outro ponto a ser considerado foi a arquitetura do framework, que facilita lidar com pontos chaves problemáticos em outras ferramentas de automação, como a incossistência e indisponibilidade dos elementos.
  O projeto se adapta para qualquer linguagem;
+
+ Importante salientar que todos os requisitos do projeto foram atendidos, o mesmo está configurado para rodar com testes contínuos multiplataforma e multibrowser na nuvem, através do Github Actions e do cloud cypress.
 
 # Estrutura do Projeto:
 
