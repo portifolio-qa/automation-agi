@@ -7,7 +7,7 @@ describe("Cenários Agi", () => {
       cy.visit("/");
       cy.get(Button).click({ force: true });
       cy.visit("https://blogdoagi.com.br/?s=");
-      cy.contains(" Search Results for: ");
+      cy.contains(" Resultados encontrados para: ");
     })
   })
   it("Tc002 - Validar campo e-mail obrigatório p/ inscrição na Newsletter da página pesquisa", () => {
