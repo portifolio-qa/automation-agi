@@ -5,13 +5,13 @@ Este projeto, foi desenvolvido para o cliente Agi Bank.
 ## Requisitos:
 
 - Aplicação: https://blogdoagi.com.br/
-- Atenção: Considerando a pesquisa de artigos do blog (lupa no canto superior esquerdo):
+- **Atenção:** Considerando a pesquisa de artigos do blog (lupa no canto superior esquerdo):
 - Mínimo dois cenários mais relevantes para a automação;
 
   - **TC001** - Validar que a aplicação retorna para a página de pesquisa.
   - **TC002** - Validar campo e-mail obrigatório p/ inscrição na Newsletter da página pesquisa.
 
-- Liguagem de livre escolha. Foi escolhido o framework Cypress, por ser multiplataforma e multibrowser e também, pela compatibilidade da linguagem de front end, utilizada no cliente Agi ReactJs.
+- Liguagem de livre escolha. Foi escolhido o framework Cypress, por ser multiplataforma e multibrowser e também, pela compatibilidade da linguagem de front end ReactJs, utilizada no cliente Agi.
 - Criar repositório GitHub (público) com o código disponível para avaliação;
 - Boas práticas são bem vindas;
 - Instruções necessárias para executar o projeto;
@@ -34,7 +34,7 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 # Estrutura do Projeto:
 
-<img src="image/README/icon_folder.png"/> **Automation-Front-end-Agii:** Pasta principal do projeto
+<img src="image/README/icon_folder.png"/> **Automation-Front-end-Agi:** Pasta principal do projeto
 
 <img src="image/README/icon_folder.png"/> **cypress:** Pasta do framework Cypress
 
@@ -49,11 +49,10 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 <img src="image/README/icon_folder.png"/> **videos:** Evidências dos testes em videos dos testes
 
-<img src="image/README/javascript_icon_.png"/> **Arquivo cypress.json:** Configurações para executar o projetos browser
+<img src="image/README/javascript_icon_.png"/> **Arquivo cypress.json:** Configurações para executar o projeto browser
 
-<img src="image/README/javascript_icon_.png"/> **Arquivo [commandjs]**(https://docs.cypress.io/api/table-of-contents "Doc Comandos Cypress"): Comandos do cypress
+<img src="image/README/javascript_icon_.png"/> **Arquivo [commandjs](https://docs.cypress.io/api/table-of-contents "Doc Comandos Cypress")**: Comandos do cypress
 
-<img src="image/README/javascript_icon_.png"/> **Arquivo e2e:** Primeiro arquivo carregado do cypress, tudo que precisa antes rodar os testes
 
 <img src="image/README/javascript_icon_.png"/> **pakage.json:** Arquivo Informações do projeto
 
@@ -62,7 +61,7 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 # Execuçao do projeto:
 
-* Gitclone: https://github.com/portifolio-qa/automation-agi.git
+* git clone: https://github.com/portifolio-qa/automation-agi.git
 
 ### Comandos Local:
 
@@ -78,11 +77,12 @@ yarn allure serve (executa o servidor de relatório)
 
 Para rodar a pipeline de testes contínuos, basta executar o workflow criado no repositório.
 
-Passos:  
-1 - https://github.com/portifolio-qa/automation-agi.git  
-2 - Clicar em Actions  
-3 - Workflow > Cypress cloud  
-4 - Clicar no botão Re-run all Jobs e a suíte irá rodar  
+**Passos:**  
+
+**1** - https://github.com/portifolio-qa/automation-agi.git  
+**2** - Clicar em Actions  
+**3** - Workflow > Cypress cloud  
+**4** - Clicar no botão Re-run all Jobs e a suíte irá rodar  
 
 Link para visualizar o relatório na nuvem: 
 
