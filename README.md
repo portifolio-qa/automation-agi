@@ -49,7 +49,7 @@ O projeto de teste apresenta as seguintes tecnologias:
 
 <img src="image/README/icon_folder.png"/> **screenshots:** Evidências (prints) dos testes que falharam
 
-<img src="image/README/icon_folder.png"/> **suport:** Pasta default do cypress para comandos e configurações
+<img src="image/README/icon_folder.png"/> **support:** Pasta default do cypress para comandos e configurações
 
 <img src="image/README/icon_folder.png"/> **videos:** Evidências dos testes em videos dos testes
 
